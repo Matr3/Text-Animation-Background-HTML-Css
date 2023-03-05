@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    padding: 0;
+    background-color: orangered;
+}
+.contenedor{
+    margin-top: 50px;
+    text-align: center;
+}
+.contenedor h1{
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.2);
+    background-image: url("../img/peakpx.jpg");
+    background-size: 270px;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animacion 15s linear infinite;
+}
+
+@keyframes animacion {
+    0% {
+        background-position: left 0px top 0px;
+    }
+    0% {
+        background-position: left 800px top 0px;
+    }
+}
